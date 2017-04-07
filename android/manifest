@@ -2,9 +2,9 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 0.1
-apiversion: 2
-architectures: armeabi armeabi-v7a x86
+version: 1.0
+apiversion: 3
+architectures: armeabi-v7a x86
 description: Android Geofencing module using the latest google geofencing library. The library uses eventbus for event handling between classes. Have fun and email me at scconway8@gmail.com for questions.
 author: Sean Conway
 license: Specify your license
@@ -14,5 +14,5 @@ name: googlegeofence
 moduleid: google.geofence
 guid: c2e0708a-7e48-4e1f-9df6-eed324696ff7
 platform: android
-minsdk: 4.1.0.GA
+minsdk: 6.0.0.GA
 respackage: com.google.android.gms
